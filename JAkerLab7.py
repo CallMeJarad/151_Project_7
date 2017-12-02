@@ -113,6 +113,7 @@ def move_stuff(badGuys, hero, window):
             time.sleep(0.05)
             counter = counter + 1
     # Show Score and Result
+    # Add a You Win or You Lose Message
 
 def main():
     win = graphics.GraphWin("Project 5 Start", WINDOW_WIDTH, 500)
